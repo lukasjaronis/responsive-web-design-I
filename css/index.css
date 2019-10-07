@@ -1,3 +1,48 @@
 /* Use your own code or past solution for Great Idea Web Page CSS here! */
 
+* {
+    font-size: 16px;
+    box-sizing: border-box;
+}
 
+.row {
+    display: flex;
+    flex-direction: row;
+    max-width: 80rem;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.row-r {
+    display: flex;
+    flex-direction: row-reverse;
+    max-width: 80rem;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.col {
+    display: flex;
+    margin: 1rem;
+    border: 3px solid black;
+}
+
+.col-1-of-1 {
+    justify-content: center;
+    width: calc(100% - 2rem);
+}
+
+.col-1-of-2 {
+    justify-content: center;
+    width: calc(50% - 2rem);
+}
+
+.col-1-of-3 {
+    justify-content: center;
+    width: calc(33% - 2rem);
+}
+
+.col-1-of-4 {
+    justify-content: center;
+    width: calc(25% - 2rem);
+}

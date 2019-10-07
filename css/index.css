@@ -162,7 +162,8 @@ hr {
 
 /*  Media Queries */
 
-@media (max-width: 1200px) {
+
+@media (max-width: 1024px) {
     header {
         display: flex;
         flex-direction: column-reverse;
@@ -174,8 +175,7 @@ hr {
 
     nav ul {
         display: flex;
-        flex-direction: column;
-        justify-content: center;
+        flex-direction: row;
         align-items: center;
     }
 
@@ -185,26 +185,48 @@ hr {
         margin-bottom: 1rem;
         border-radius: 0;
         border: none;
-        border-bottom: 1px solid black;
-        width: 100%;
     }
 
     .row {
         display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
+        flex-direction: row;
         justify-content: center;
-        align-items: center;
+        max-width: 80rem;
+        margin: auto;
+        flex-wrap: wrap;
     }
 
     .col {
-        width: 95%;
-        margin-left: auto;
-        margin-right: auto;
+        display: flex;
+        margin: 1rem;
+    }
+
+    .col-1-of-2 {
+        display: flex;
+        justify-content: center;
+        width: calc(50% - 2rem);
+    }
+
+    .col-1-of-3 {
+        justify-content: center;
+        width: calc(33% - 2rem);
+    }
+
+    .footer .col-1-of-2 {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 2rem;
+        width: 100%;
+
     }
 
     .logo {
         margin: 1rem auto 2rem auto;
+    }
+
+    .top-card-img {
+        display: none;
     }
 }
 
@@ -300,6 +322,7 @@ hr {
     .logo {
         margin: 1rem auto 2rem auto;
     }
+
     .top-card-img {
         display: none;
     }

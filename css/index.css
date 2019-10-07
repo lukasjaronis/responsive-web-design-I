@@ -167,7 +167,7 @@ hr {
 
 @media (min-width: 1200px) {
     nav {
-        background-color: rgb(0, 255, 255, 0.3);
+        background: linear-gradient(to top,#48D1CC, #E0FFFF, #E0FFFF, #E0FFFF);
     }
 }
 
@@ -177,7 +177,7 @@ hr {
         flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
-        background-color: rgb(0, 255, 255, 0.3);
+        background: linear-gradient(to top,#48D1CC, #E0FFFF, #E0FFFF, #E0FFFF);
         border-bottom: 1px solid black;
     }
 
@@ -218,7 +218,7 @@ hr {
         flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
-        background-color: rgb(0, 255, 255, 0.3);
+        background: linear-gradient(to top,#48D1CC, #E0FFFF, #E0FFFF, #E0FFFF);
         border-bottom: 1px solid black;
     }
 
@@ -258,7 +258,7 @@ hr {
         flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
-        background-color: rgb(0, 255, 255, 0.3);
+        background: linear-gradient(to top,#48D1CC, #E0FFFF, #E0FFFF, #E0FFFF);
         border-bottom: 1px solid black;
     }
 

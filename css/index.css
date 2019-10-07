@@ -31,6 +31,11 @@ header {
     padding: 1rem 10%;
 }
 
+nav ul {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
 nav ul li {
     display: inline-block;
     padding: 0 2rem;
@@ -253,7 +258,7 @@ hr {
         border-radius: 0;
         border: none;
         border-bottom: 1px solid black;
-        width: 100%;
+        width: calc(800px - 25rem);
     }
 
     .row {
@@ -302,7 +307,7 @@ hr {
         border-radius: 0;
         border: none;
         border-bottom: 1px solid black;
-        width: 100%;
+        width: calc(800px - 25rem);
     }
 
     .row {

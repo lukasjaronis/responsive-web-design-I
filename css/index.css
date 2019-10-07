@@ -2,8 +2,36 @@
 
 * {
     font-size: 16px;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
+    list-style: none;
 }
+
+html, body {
+    height: 100%;
+    font-family: 'Mansalva', cursive;
+    }
+    
+    h1, h2, h3, h4, h5 {
+    font-family: 'Mansalva', cursive;
+    letter-spacing: 3px;
+    margin-bottom: 15px;
+    }
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 10%;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 0 2rem;
+}
+
+/*  Flex Pre-Layout */
 
 .row {
     display: flex;
@@ -24,7 +52,6 @@
 .col {
     display: flex;
     margin: 1rem;
-    border: 3px solid black;
 }
 
 .col-1-of-1 {
@@ -46,3 +73,55 @@
     justify-content: center;
     width: calc(25% - 2rem);
 }
+
+/* Columns */
+
+.col-1-of-2 .top-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Images */
+
+.middle-img {
+    max-width: 876px;
+    max-height: auto;
+}
+
+/*  Cards */
+
+.cards {
+    padding: 1rem;
+}
+
+.cards h2 {
+    margin-bottom: 1rem;
+}
+
+/* Misc */
+
+hr {
+    width: 96%;
+    height: 3px;
+    background-color: black;
+}
+
+.top-card h1 {
+    font-size: 3rem;
+}
+
+.top-card button {
+    border: 1px solid black;
+	font-weight: 200;
+	background-color: transparent;
+	text-decoration: none;
+	padding: 0 20px 0 20px;
+}
+
+.top-card button:hover {
+	background-color: yellow;
+	border: 1px solid black;
+	position: relative;
+	bottom: -1px;

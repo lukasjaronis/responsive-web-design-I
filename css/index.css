@@ -164,6 +164,7 @@ hr {
 
     header {
         display: flex;
+        flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
     }
@@ -171,7 +172,12 @@ hr {
     nav ul {
         display: flex;
         flex-direction: column;
+        justify-content: center;
         align-items: center;
+    }
+
+    nav ul li {
+        margin-bottom: 1rem;
     }
 
     .row {
@@ -188,11 +194,8 @@ hr {
         margin-right: auto;
         border: 1px solid red;
     }
-
-    body img {
-        margin: auto;
-        width: auto;
-        height: auto;
+    .logo {
+        margin: 1rem auto 2rem auto;
     }
 }
 
@@ -203,6 +206,7 @@ hr {
 
     header {
         display: flex;
+        flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
     }
@@ -211,6 +215,10 @@ hr {
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+
+    nav ul li {
+        margin-bottom: 1rem;
     }
 
     .row {
@@ -228,10 +236,8 @@ hr {
         border: 1px solid red;
     }
 
-    body img {
-        margin: auto;
-        width: auto;
-        height: auto;
+    .logo {
+        margin: 1rem auto 2rem auto;
     }
 }
 
@@ -242,6 +248,7 @@ hr {
 
     header {
         display: flex;
+        flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
     }
@@ -250,6 +257,10 @@ hr {
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+
+    nav ul li {
+        margin-bottom: 1rem;
     }
 
     .row {
@@ -266,10 +277,7 @@ hr {
         margin-right: auto;
         border: 1px solid red;
     }
-
-    body img {
-        margin: auto;
-        width: auto;
-        height: auto;
+    .logo {
+        margin: 1rem auto 2rem auto;
     }
 }

@@ -167,12 +167,6 @@ hr {
 
 /*  Media Queries */
 
-@media (min-width: 1024px) {
-    hr {
-        margin: 2%;
-    }
-}
-
 @media (max-width: 1024px) {
     header {
         display: flex;
@@ -242,6 +236,7 @@ hr {
 
 @media (max-width: 800px) {
     header {
+        max-width: 100vh;
         display: flex;
         flex-direction: column-reverse;
         justify-content: center;
@@ -252,8 +247,10 @@ hr {
 
     nav ul {
         display: flex;
-        flex-direction: column;
-        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    
     }
 
     nav ul li {
@@ -267,15 +264,16 @@ hr {
     }
 
     .row {
+        max-width: 100vh;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
     }
 
     .col {
-        width: 95%;
+        width: 100vh;
         margin-left: auto;
         margin-right: auto;
     }
@@ -291,6 +289,7 @@ hr {
 
 @media (max-width: 500px) {
     header {
+        max-width: 100%;
         display: flex;
         flex-direction: column-reverse;
         justify-content: center;

@@ -141,7 +141,9 @@ nav ul li {
 }
 
 hr {
-    width: 96%;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    width: 98%;
     height: 3px;
     background-color: black;
 }
@@ -167,7 +169,8 @@ hr {
 
 /*  Media Queries */
 
-@media (max-width: 1024px) {
+
+@media (max-width: 800px) {
     header {
         display: flex;
         flex-direction: column-reverse;
@@ -195,7 +198,6 @@ hr {
         display: flex;
         flex-direction: row;
         justify-content: center;
-        max-width: 80rem;
         margin: auto;
         flex-wrap: wrap;
     }
@@ -234,62 +236,8 @@ hr {
     }
 }
 
-@media (max-width: 800px) {
-    header {
-        max-width: 100vh;
-        display: flex;
-        flex-direction: column-reverse;
-        justify-content: center;
-        align-items: center;
-        background: rgb(0, 255, 255, 0.3);
-        border-bottom: 1px solid black;
-    }
-
-    nav ul {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
-    
-    }
-
-    nav ul li {
-        display: flex;
-        justify-content: center;
-        margin-bottom: 1rem;
-        border-radius: 0;
-        border: none;
-        border-bottom: 1px solid black;
-        width: calc(800px - 25rem);
-    }
-
-    .row {
-        max-width: 100vh;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .col {
-        width: 100vh;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .logo {
-        margin: 1rem auto 2rem auto;
-    }
-
-    .top-card-img {
-        display: none;
-    }
-}
-
 @media (max-width: 500px) {
     header {
-        max-width: 100%;
         display: flex;
         flex-direction: column-reverse;
         justify-content: center;
@@ -316,14 +264,14 @@ hr {
 
     .row {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
     }
 
     .col {
-        width: 95%;
+        width: 98%;
         margin-left: auto;
         margin-right: auto;
     }
